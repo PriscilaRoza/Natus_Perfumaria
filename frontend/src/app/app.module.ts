@@ -18,6 +18,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
