@@ -1,25 +1,37 @@
 {
-  "prodcts": [
+  "products": [
     {
       "id": 1,
       "photo": "https://images2.lojasparaguai.com.br/produtos/lojas/pioneer-international/perfume-antonio-banderas-mediterraneo-edt-50ml.jpg",
       "name": "Antonio Bandeiras - Mediterráneo ",
       "description": "Mediterráneo Antonio Banderas - Perfume Masculino - Eau de Toilette - 100ml",
-      "price": 179.0
+      "price": 179
     },
     {
       "id": 2,
       "photo": "https://a-static.mlcdn.com.br/1500x1500/la-vie-est-belle-lancome-perfume-feminino-eau-de-parfum/epocacosmeticos-integra/17882/749ba77d245117825ac4b66a6920ae4f.jpg",
       "name": "LANCÔME",
-      "descr iption": "PERFUME LANCÔME LA VIE EST BELLE FEMININO L'EAU DE PARFUM 100Ml",
-      "price": 497.0
+      "description": "PERFUME LANCÔME LA VIE EST BELLE FEMININO L'EAU DE PARFUM 100Ml",
+      "price": 497
     },
     {
       "id": 3,
       "photo": "http://io2.convertiez.com.br/m/dannycosmeticos/shop/products/images/1292/big/perfume-chloe-signature-eau-de-parfum-feminino-30ml_2199.jpg",
       "name": "CHLOÉ",
       "description": "PERFUME CHLOÉ FEMININO EAU DE PARFUM 75Ml",
-      "price": 507.0
+      "price": 507
+    },
+    {
+      "name": " Americanas Perfume Salvador Dalí Laguna ",
+      "price": "500",
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/item/7331/1/7331112_1GG.jpg",
+      "id": 4
+    },
+    {
+      "name": "Animale",
+      "price": "230",
+      "photo": "https://static.zattini.com.br/produtos/perfume-animale-masculino-for-men-edt-100ml/60/L51-0035-460/L51-0035-460_zoom1.jpg?ts=1636124383",
+      "id": 5
     }
   ]
 }

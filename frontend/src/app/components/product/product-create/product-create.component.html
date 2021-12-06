@@ -7,6 +7,9 @@
       <mat-form-field>
           <input matInput placeholder="preço (R$)" [(ngModel)]="product.price" name="price"> 
       </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="link da imagem" [(ngModel)]="product.photo" name="photo"> 
+      </mat-form-field>
   </form>
   <button mat-raised-button (click)="createProduct()" color="primary">
     Salvar
