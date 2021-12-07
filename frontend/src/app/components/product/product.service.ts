@@ -9,6 +9,7 @@ import { Product } from "./product.model";
 })
 export class ProductService {
   baseUrl = "http://localhost:3001/products";
+  router: any;
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
@@ -28,11 +29,22 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl);
   }
   readById(id: string): Observable<Product> {
-    const url =`${this.baseUrl}/${id}`
-    return this.http.get<Product>(url)
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Product>(url);
   }
-  update(id: string, product: Product): Observable<Product> {
-     const url = `${this.baseUrl}/${id}`;
-     return this.http.put<Product>(url, product);
+  // update({
+  //   id,
+  //   product,
+  // }: {
+  //   id: string;
+  //   product: Product;
+  // }): Observable<Product> {
+  //   const url = `${this.baseUrl}/${id}`;
+  //   return this.http.put<Product>(url, product);
+  // }
+  update(id: number, product: Product): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.put<Product>(url, product);
   }
 }
+
