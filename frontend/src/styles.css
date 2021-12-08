@@ -10,3 +10,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
     vertical-align: middle;
     /* alinha o coração na linha */
 }
+.msg-sucess {
+    /* color: #28a745; */
+    /* background-color: #FFFFFF; */
+    border-left: 10px solid #28a745; 
+}
